@@ -159,10 +159,7 @@ class StockPriceIngest:
         # Extract value of each columns from raw data
         price_col = list(raw_data['price'].values())
         volume_col = list(raw_data['volume'].values())
-        datetime_col = [
-            dt.datetime.strftime(date, '%Y-%m-%d')
-            for date in list(raw_data['price'].keys())
-        ]
+        datetime_col = list(raw_data['price'].keys())
 
         if len(price_col) == 0:
             return False
