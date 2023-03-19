@@ -20,15 +20,21 @@ class StockPriceCollector:
             self.stock_symbol,
             self.from_time,
             self.to_time,
-        )['Adj Close'].to_dict()
-
-        return price
+        )['Adj Close']
+        price.index = [
+            date.strftime('%Y-%m-%d') for date in price.index
+        ]
+        
+        return price.to_dict()
 
     def get_volume(self):
         volume = pdr.get_data_yahoo(
             self.stock_symbol,
             self.from_time,
             self.to_time
-        )['Volume'].to_dict()
+        )['Volume']
+        volume.index = [
+            date.strftime('%Y-%m-%d') for date in volume.index
+        ]
 
-        return volume
+        return volume.to_dict()
