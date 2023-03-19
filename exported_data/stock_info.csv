@@ -1,0 +1,8 @@
+symbol|country|currency|estimate_currency|exchange|industry|ipo_date|logo|market_capitalization|name|phone|share_outstanding|web_url
+META|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Media|2012-05-18|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FB.svg|507170.3404599479|Meta Platforms Inc|1.6506187714e10|2592.76|https://www.facebook.com
+AMZN|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Retail|1997-05-15|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.svg|1013966.3630882472|Amazon.com Inc|1.2062661e10|10247.3|https://www.amazon.com/
+AAPL|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Technology|1980-12-12|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.svg|2452401.77084761|Apple Inc|1.408996101e10|15821.9|https://www.apple.com/
+NFLX|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Media|2002-05-23|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NFLX.svg|135162.74400667773|Netflix Inc|1.40854037e10|445.347|https://www.netflix.com/
+GOOGL|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Media|2004-08-19|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.svg|1305981.3384337027|Alphabet Inc|1.650253e10|12807.0|https://abc.xyz/
+TSLA|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Automobiles|2010-06-09|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.svg|569949.8494525594|Tesla Inc|1.5125168177e10|3164.1|https://www.tesla.com/
+MSFT|US|USD|USD|NASDAQ NMS - GLOBAL MARKET|Technology|1986-03-13|https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.svg|2080022.1628769664|Microsoft Corp|1.425882808e10|7443.8|https://www.microsoft.com/en-us
