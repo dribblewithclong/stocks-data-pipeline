@@ -24,7 +24,8 @@ class StockPriceCollector:
         price.index = [
             date.strftime('%Y-%m-%d') for date in price.index
         ]
-        
+        price = price.fillna(999999)
+
         return price.to_dict()
 
     def get_volume(self):
@@ -36,5 +37,6 @@ class StockPriceCollector:
         volume.index = [
             date.strftime('%Y-%m-%d') for date in volume.index
         ]
-
+        volume = volume.fillna(999999)
+        
         return volume.to_dict()
