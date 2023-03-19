@@ -102,11 +102,17 @@ class StockInfoIngestion:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         # Make a connection
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 
@@ -216,11 +222,17 @@ class StockPriceIngest:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         # Make a connection
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 
@@ -350,11 +362,17 @@ class StockRedditIngest:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         # Make a connection
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 
@@ -484,11 +502,17 @@ class StockTwitterIngest:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         # Make a connection
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 
@@ -610,11 +634,17 @@ class StockArticleIngest:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         # Make a connection
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 

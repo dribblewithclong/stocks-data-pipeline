@@ -83,10 +83,16 @@ class TableCreation:
             config = json.load(psql)
         host = config['host']
         db = config['database']
+        user = config['user']
+        password = config['password']
+        port = config['port']
 
         conn = psycopg2.connect(
             host=host,
             database=db,
+            user=user,
+            password=password,
+            port=port,
         )
         cur = conn.cursor()
 
