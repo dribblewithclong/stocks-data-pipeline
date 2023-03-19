@@ -1,0 +1,15 @@
+flake8
+selenium
+finnhub-python
+polars
+pandas-datareader
+yfinance
+pandas
+psycopg2-binary
+apache-airflow
+scikit-learn
+matplotlib
+seaborn
+nltk
+textblob
+gensim
