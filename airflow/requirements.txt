@@ -13,3 +13,4 @@ seaborn
 nltk
 textblob
 gensim
+pyarrow
