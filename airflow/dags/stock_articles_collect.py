@@ -12,7 +12,7 @@ class ArticleCollector:
         self.to_time = to_time
         self.stock_symbol = stock_symbol
 
-        self.api_key = 'cg9tff1r01qqlesg9l10cg9tff1r01qqlesg9l1g'
+        self.api_key = 'cgbgpj1r01qispgnbh8gcgbgpj1r01qispgnbh90'
         self.client = finnhub.Client(
             self.api_key
         )
